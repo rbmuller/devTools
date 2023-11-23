@@ -1,4 +1,4 @@
-module github.com/devtools
+module github.com/rbmuller/devtools
 
 go 1.19
 
