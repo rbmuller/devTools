@@ -9,20 +9,20 @@ import (
 )
 
 // CustomError represents a custom error type with file and line information.
-type ErrorFinder struct {
+type errorFinder struct {
 	File string
 	Line int
 	Err  error
 }
 
 // Error implements the error interface for CustomError.
-func (e *ErrorFinder) Error() string {
+func (e *errorFinder) Error() string {
 	return fmt.Sprintf("%s:%d - %s", e.File, e.Line, e.Err.Error())
 }
 
 // NewError creates a new CustomError with file and line information.
 func NewError(message string) error {
-	return &ErrorFinder{
+	return &errorFinder{
 		File: getFileName(),
 		Line: getLineNumber(),
 		Err:  fmt.Errorf(message),

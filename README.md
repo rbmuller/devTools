@@ -6,12 +6,12 @@ There are functions to print custom error messages indicating file and line numb
 
 Feel free to join our community and help to improve **DevTools**
 
-### How to use
+## How to use
 
 Import it into your code and start using.
 
 ```bash
-go get -u github.com/rbmuller/devTools.git
+go get github.com/rbmuller/devtools
 ```
 
 Features Catalog:
@@ -36,3 +36,5 @@ Features Catalog:
 ```bash
 devErrors.NewError(err)
 ```
+
+For more example visit [example.go](./example.go)

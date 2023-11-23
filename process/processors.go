@@ -1,4 +1,4 @@
-package DevProcess
+package devProcess
 
 import (
 	"bytes"
