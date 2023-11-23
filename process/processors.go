@@ -13,7 +13,7 @@ import (
 
 	php "github.com/kovetskiy/go-php-serialize"
 
-	"github.com/devtools/models"
+	"github.com/rbmuller/devtools/models"
 	null "gopkg.in/guregu/null.v3"
 )
 

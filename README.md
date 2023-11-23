@@ -16,7 +16,22 @@ go get -u github.com/rbmuller/devTools.git
 
 Features Catalog:
 
-Debbuging helper, find the file and line of code with problem with a custom Error
+1. Errors
+"github.com/rbmuller/devtools/errors"
+
+2. Filters
+"github.com/rbmuller/devtools/filters"
+
+3. Logging
+"github.com/rbmuller/devtools/logging"
+
+4. Mail
+"github.com/rbmuller/devtools/mail"
+
+5. Process
+"github.com/rbmuller/devtools/process"
+
+**Errors** pkg can help finding the file and line of code with problem implementing a custom Error
 
 ```bash
 devErrors.NewError(err)

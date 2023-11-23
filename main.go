@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	devErrors "github.com/devtools/errors"
+	devErrors "github.com/rbmuller/devtools/errors"
 )
 
 func main() {
