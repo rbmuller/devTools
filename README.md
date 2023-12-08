@@ -37,4 +37,4 @@ Features Catalog:
 devErrors.NewError(err)
 ```
 
-For more example visit [example.go](./example.go)
+For more examples visit [example.go](./example.go)
