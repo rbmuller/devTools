@@ -1,4 +1,4 @@
-# DevTools
+# devTools
 
 This is an open package to help developers solve daily trivial coding problems.
 
