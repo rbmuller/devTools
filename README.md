@@ -4,7 +4,7 @@ This is an open package to help developers solve daily trivial coding problems.
 
 There are functions to print custom error messages indicating file and line number, custom functions like Stringfy or Chunk an Array.
 
-Feel free to join our community and help to improve **DevTools**
+Feel free to join our community and help to improve **devTools**
 
 ## How to use
 
